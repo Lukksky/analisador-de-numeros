@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Analisador de Números</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+   <header>
+    <h1>Analisador de Números</h1>
+</header>
+    <section>
+        <div>
+            <p>
+                Insira um número <input type="number" name="txtnum" id="txtnum" placeholder="Entre 1 a 100">
+                <input type="button" value="Adicionar" onclick="adicionar()">
+            </p>
+        </div>
+
+        <div>
+            <p>
+                <select name="sel" id="sel" size="10">
+                    
+                </select>
+                
+            </p>
+            <input type="button" value="Finalizar" onclick="finalizar()">
+            <p id="res">
+
+            </p>
+        </div>
+    </section>
+    <footer>
+        <p>&copy; Lucas em ação</p>
+    </footer>
+<script src="script.js"></script>
+</body>
+</html>
